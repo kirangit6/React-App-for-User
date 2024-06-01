@@ -1,0 +1,213 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+.container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.classic-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.classic-table th,
+.classic-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.classic-table th {
+  background-color: #f2f2f2;
+}
+
+.view-button {
+  padding: 5px 10px;
+  background-color: #19a89c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #19a89c;
+}
+
+.view-button:hover {
+  background-color: transparent;
+  color: #19a89c;
+}
+
+.user-details {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: #ddd;
+  padding: 40px;
+}
+
+.user-details h3 {
+  margin-top: 0;
+}
+
+.search-wrap,
+.details-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.search-left,
+.search-right {
+  width: 50%;
+}
+
+.search-right {
+  text-align: right;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.back-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #19a89c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #19a89c;
+
+}
+
+.back-button:hover {
+  background-color: transparent;
+  color: #19a89c;
+}
+
+p {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+p:hover {
+  opacity: 0.7;
+}
+
+.card p {
+  text-align: left;
+  display: flex;
+
+}
+
+.card span {
+  font-weight: 600;
+  margin-right: 20px;
+  width: 150px;
+  flex-shrink: 0;
+}
+
+
+
+.error-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff6347;
+}
+
+/* p {
+  margin-bottom: 20px;
+  color: #666;
+} */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
