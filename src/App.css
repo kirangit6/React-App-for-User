@@ -213,13 +213,12 @@ a {
 }
 
 @media (max-width:767px) {
-  .card p {
+  /* .card p {
     display: block;
-  }
+  } */
 
   .card span {
-    display: block;
-    margin-bottom: 4px;
+    width: 100px;
   }
 
   .card * {
