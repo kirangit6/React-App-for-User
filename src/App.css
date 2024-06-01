@@ -235,4 +235,19 @@ a {
     margin-right: 20px;
     width: calc(100% - 40px);
   }
+
+  .search-left,
+  .search-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .search-wrap,
+  .details-wrap {
+    display: block;
+  }
+
+  .table-wrap {
+    overflow-y: scroll;
+  }
 }
