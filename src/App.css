@@ -213,9 +213,6 @@ a {
 }
 
 @media (max-width:767px) {
-  /* .card p {
-    display: block;
-  } */
 
   .card span {
     width: 100px;
