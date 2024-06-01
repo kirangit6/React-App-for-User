@@ -211,3 +211,28 @@ a {
   color: #007bff;
   text-decoration: none;
 }
+
+@media (max-width:767px) {
+  .card p {
+    display: block;
+  }
+
+  .card span {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .card * {
+    font-size: 16px;
+  }
+
+  .card {
+    padding-bottom: 20px;
+  }
+
+  .card .back-button {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+  }
+}
